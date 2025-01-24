@@ -4,11 +4,11 @@
 
 # Site
 title: 穿裤衩闯天下
-subtitle: ''
-description: ''
-keywords:
+subtitle: '慢慢来，一步一个脚印👣'
+description: '个人博客，记录我的技术心得，以及个人技术分享，开源项目等'
+keywords: 'Android,Kotlin,Flutter,软件框架搭建,MVVM,模块化开发,开源项目,Android开发,Kotlin开发,Flutter开发,小程序开发,元宇宙项目开发,音视频开发,WebRTC,WebRTC开发,物联网开发,ESP8266,ESP32,Socket,WebSocket,IM即时通讯'
 author: lzan13
-language: zh-CN
+language: 'zh-CN'
 timezone: 'Asia/Shanghai'
 
 # URL

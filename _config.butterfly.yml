@@ -17,7 +17,12 @@ nav:
   fixed: true
 
 menu:
+  # 搜索: / || fas fa-search
   首页: / || fas fa-home
+  时间线: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder
+  友链: /links/ || fas fa-user-friends
   关于: /about/ || fas fa-user
   # Home: / || fas fa-home
   # List||fas fa-list:
@@ -112,7 +117,7 @@ error_img:
 # A simple 404 page
 error_404:
   enable: false
-  subtitle: 'Page Not Found'
+  subtitle: '页面未找到'
   background: /img/img-404.svg
 
 post_meta:
@@ -149,7 +154,7 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
   # Customize typed.js
@@ -162,9 +167,11 @@ subtitle:
   # 1 - hitokoto.cn
   # 2 - yijuzhan.com
   # 3 - jinrishici.com
-  source: false
+  source: true
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
+    - 慢慢来，一步一个脚印👣
+    - —— lzan13
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -202,21 +209,21 @@ toc:
 post_copyright:
   enable: true
   decode: false
-  author_href:
+  author_href: 
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 # Sponsor/reward
 reward:
-  enable: false
-  text:
+  enable: true
+  text: If you like this article, you can reward me.
   QR_code:
-    # - img: /img/wechat.jpg
-    #   link:
-    #   text: wechat
-    # - img: /img/alipay.jpg
-    #   link:
-    #   text: alipay
+    - img: /img/img-qrcode-wechat.jpeg
+      link:
+      text: 微信
+    - img: /img/img-qrcode-alipay.jpeg
+      link:
+      text: 支付宝
 
 # Post edit
 # Easily browse and edit blog source code online.
@@ -258,8 +265,8 @@ noticeOutdate:
 footer:
   owner:
     enable: true
-    since: 2019
-  custom_text:
+    since: 2025
+  custom_text: 慢慢来，一步一个脚印👣 —— <a target="_blank" href="https://vmtools.top" >lzan13</a>
   # Copyright of theme and framework
   copyright: true
 

@@ -1,0 +1,15 @@
+- class_name: 友情链接
+  class_desc: 相识即是有缘！
+  link_list:
+    - name: CrazyWong
+      link: https://blog.crazywong.com/
+      avatar: https://blog.crazywong.com/img/avatar.png
+      descr: 当前主题作者，感谢大佬的付出
+
+- class_name: 站点推荐
+  class_desc: 自己喜欢并值得推荐的站点
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的博客框架
