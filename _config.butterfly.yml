@@ -190,6 +190,7 @@ index_layout: 3
 # false: do not show the article introduction
 index_post_content:
   method: 3
+  
   # If you set method to 2 or 3, the length need to config
   length: 500
 
@@ -216,14 +217,14 @@ post_copyright:
 # Sponsor/reward
 reward:
   enable: true
-  text: If you like this article, you can reward me.
+  text: 打赏☕️
   QR_code:
     - img: /img/img-qrcode-wechat.jpeg
       link:
       text: 微信
     - img: /img/img-qrcode-alipay.jpeg
       link:
-      text: 支付宝
+      text: 支付宝 
 
 # Post edit
 # Easily browse and edit blog source code online.
